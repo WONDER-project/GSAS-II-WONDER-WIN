@@ -10,7 +10,7 @@ with io.open('about.md', 'r', encoding='utf-8') as f:
 
 MAJOR = 1
 MINOR = 0
-MICRO = 0
+MICRO = 1
 VERSION = '%d.%d.%d' % (MAJOR, MINOR, MICRO)
 
 AUTHOR = 'Luca Rebuffi, Paolo Scardi, Alberto Flor'
